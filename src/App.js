@@ -10,6 +10,7 @@ import Map from "./components/Map/Map";
 
 function App() {
   const [places, setPlaces] = useState([]);
+
   const [filteredPlaces, setFilteredPlaces] = useState([]);
   const [childClicked, setChildClicked] = useState(null);
   const [coordinates, setCoordinates] = useState({});
