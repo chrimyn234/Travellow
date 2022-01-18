@@ -21,8 +21,6 @@ const PlaceDetails = forwardRef(({ place, selected }, ref) => {
   const classes = useStyles();
 
   if (selected) {
-    console.log("Scrolling...");
-    console.log({ ref });
     ref?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
